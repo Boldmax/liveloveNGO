@@ -725,7 +725,7 @@ ul {
     width: 1400px;
   }
 
-  .education .educationContainer h3{
+  .education .educationContainer h3 {
     font-size: 26px;
     /* line-height: 24px; */
   }
@@ -739,9 +739,14 @@ ul {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 384px) {
+  .education .educationContainer h3 {
+    font-size: 22px;
+  }
+}
 
-  .education .educationContainer h3{
+@media screen and (max-width: 360px) {
+  .education .educationContainer h3 {
     font-size: 18px;
     line-height: 24px;
   }
