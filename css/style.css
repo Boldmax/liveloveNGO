@@ -636,7 +636,7 @@ ul {
   }
 
   header nav:hover ul {
-    right: 0;
+    right: -20px;
   }
 
   header nav ul li {
@@ -645,7 +645,7 @@ ul {
 
   header nav ul li a {
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .banner {
