@@ -609,15 +609,16 @@ ul {
     border-radius: 5px;
   }
 
-  header nav::after {
+  header nav:after {
     top: 17px;
   }
 
-  /*   header nav::before {
-  } */
+    header nav::before {
+      top: 7px;
+  }
 
   header nav::after,
-  nav::before {
+  header nav::before {
     content: "";
     height: 2px;
     width: 17px;
