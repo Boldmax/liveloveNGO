@@ -613,8 +613,8 @@ ul {
     top: 17px;
   }
 
-    header nav::before {
-      top: 7px;
+  header nav::before {
+    top: 7px;
   }
 
   header nav::after,
